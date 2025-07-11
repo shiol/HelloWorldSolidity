@@ -1,0 +1,106 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "clienteAntigo",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "cofreEndereco",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "minhaCarteira",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "valor",
+						"type": "uint256"
+					}
+				],
+				"name": "resgatarComoClienteAntigo",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"clienteNovo.sol": "ClienteNovo"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"clienteNovo.sol": {
+			"keccak256": "0x9a30037c6f8a880269a56cbc056327b53842740842d83bb3e683f01b39fbaaf7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://833b4ed785a0b3732b40882dfd472ee8263e5e0b56e276562693ac1bc47a4e50",
+				"dweb:/ipfs/QmUB9MsWn1D2PMgQmPsrDDJPAzJoUGAJaATx4AnwQA8ZN2"
+			]
+		},
+		"interfaceICofre.sol": {
+			"keccak256": "0x07185e5b0e8c1b2a3b4007c33a40c5114a2dd92a4a61baed4cbc4708cb4d65ca",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://93ed53882dcd53e412569672837a2b1ae3d3ed00a943d17b594d0fe27b0ce463",
+				"dweb:/ipfs/QmS8A3enSFnVzuZHA3vR5RPzR76U9G1utBSzQLzgj5NNRx"
+			]
+		}
+	},
+	"version": 1
+}

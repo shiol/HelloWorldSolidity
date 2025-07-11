@@ -1,0 +1,150 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "de",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "valor",
+						"type": "uint256"
+					}
+				],
+				"name": "Deposito",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "para",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "valor",
+						"type": "uint256"
+					}
+				],
+				"name": "Saque",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "usuario",
+						"type": "address"
+					}
+				],
+				"name": "consultarSaldo",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "creditos",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "depositar",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "valor",
+						"type": "uint256"
+					}
+				],
+				"name": "sacar",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"cofre.sol": "Cofre"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"cofre.sol": {
+			"keccak256": "0x04bda7dcc8edcf6bccdf5af3640e53515f0190d134a887b9c2f7c042aaae3d89",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f5416745fe848845af32cc25d123134cbb1e878d479b2ad5d53e4cf69d91602b",
+				"dweb:/ipfs/QmcSd78MCHiA7A6bVdgv2roDisogkh3V4Nghxy46T6ANaS"
+			]
+		},
+		"interfaceICofre.sol": {
+			"keccak256": "0x07185e5b0e8c1b2a3b4007c33a40c5114a2dd92a4a61baed4cbc4708cb4d65ca",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://93ed53882dcd53e412569672837a2b1ae3d3ed00a943d17b594d0fe27b0ce463",
+				"dweb:/ipfs/QmS8A3enSFnVzuZHA3vR5RPzR76U9G1utBSzQLzgj5NNRx"
+			]
+		}
+	},
+	"version": 1
+}

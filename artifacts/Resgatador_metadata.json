@@ -1,0 +1,57 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "resgatar",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"clienteNovo.sol": "Resgatador"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"clienteNovo.sol": {
+			"keccak256": "0xa8ceda2c3364756f6b591bec3753b3797f455acf78447e53eb76eb1528b23b63",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4e5f5b254591fd27e182ee4c56df61a052a879129bde366dcc692f138144aa96",
+				"dweb:/ipfs/QmV3AaM3CieRfQi93aKiiVfYksxuVQXXHKaZsXoXdB3Jd9"
+			]
+		}
+	},
+	"version": 1
+}

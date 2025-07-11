@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "cofreEndereco",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "valor",
+						"type": "uint256"
+					}
+				],
+				"name": "requisitarSaque",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"clienteNovo.sol": "IClienteAntigo"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"clienteNovo.sol": {
+			"keccak256": "0xac452c314732ac5e710a76b44512327e0bc2a0a24f4682b02904e228ddffbb7f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://63b7d049144a65fe8a4300e2528f0c3c109048f6cc9c5a37b42d4c0590473f6f",
+				"dweb:/ipfs/QmYP1jXpTsoUk8iA3imizG7yDL8BzLcWgHqfqjMdGBoZHG"
+			]
+		}
+	},
+	"version": 1
+}
